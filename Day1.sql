@@ -1,27 +1,9 @@
 indows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-PS C:\Users\Asus> Get-ChildItem "C:\Program Files\MySQL" -Recurse -Filter mysql.exe -ErrorAction SilentlyContinue
 
-
-    Directory: C:\Program Files\MySQL\MySQL Server 8.0\bin
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a----        16-12-2024     04:05        7127104 mysql.exe
-
-
-    Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a----        10-01-2025     01:46        7127104 mysql.exe
-
-
-PS C:\Users\Asus> & "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root -p
-Enter password: ****
+PS C:\Users\Asus> -u root -p
+Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 8
 Server version: 8.0.41 MySQL Community Server - GPL
