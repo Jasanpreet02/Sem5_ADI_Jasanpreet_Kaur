@@ -206,3 +206,4 @@ mysql> select e.id, e.fname, e.lname, p.id, p.name from employee as e, project a
 +----+-------+---------+----+------+
 5 rows in set (0.00 sec)
 
+
